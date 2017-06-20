@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sample.html</title>
+<!-- css 폴더 안에 있는 bootstrap.css 를 로딩 시켜보세요 -->
+</head>
+<body>
+<h2>sample.html</h2>
+</body>
+</html>

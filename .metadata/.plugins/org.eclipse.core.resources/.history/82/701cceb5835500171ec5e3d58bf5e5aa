@@ -1,0 +1,11 @@
+package test.servlet;
+/*
+ *  [ 서블릿 클래스 만드는 방법  ]
+ *  
+ *  1. HttpServlet 클래스를 상속 받는다.
+ *  2. service() 메소드를 오버라이딩한다.
+ *  3. web.xml 문서에 서블릿을 정의하고 맵핑한다.
+ */
+public class ShowTimeServlet {
+
+}

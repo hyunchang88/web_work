@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>path1/subpage.html</title>
+</head>
+<body>
+<h3>subpage.html 입니다.</h3>
+<!-- 링크를 눌렀을때 index.html 페이지로 이동하도록 해 보세요. -->
+<!-- 상대경로 이동 -->
+<a href="../index.html">index.html 로 이동</a><br/>
+<!-- 절대 경로 이동 -->
+<a href="/Step01_Path/index.html">index.html 로 이동</a><br/>
+<!-- 인터넷 상에서의 절대 경로를 이용한 이동 -->
+<a href="http://localhost:8888/Step01_Path/index.html">
+index.html 로 이동</a><br/>
+<!-- images 폴더의 image2.png 이미지를 출력해 보세요 -->
+<img src="../images/image1.png" width="200"><br/>
+<img src="/Step01_Path/images/image2.png" width="200"/><br/>
+<img src="http://localhost:8888/Step01_Path/images/image2.png" width="200" />
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sample.html</title>
+<!-- css 폴더 안에 있는 bootstrap.css 를 로딩 시켜보세요 -->
+<link rel="stylesheet" href="../css/bootstrap.css" />
+<!-- js 폴더 안에 있는 jquery를 로딩 시켜 보세요 -->
+<script src="../jquery-3.2.0.js"></script>
+</head>
+<body>
+<h2>sample.html</h2>
+</body>
+</html>
