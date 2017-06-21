@@ -1,0 +1,23 @@
+package test.dao;
+/*
+ * Dao => Data Access Object
+ * 
+ * - 회원정보에 대해서 SELECT, INSERT, UPDATE, DELETE 작업을 수행 할
+ * 	객체를 생성하기 위한 클래스 정의하기
+ * 
+ * - Application 전역에서 MemberDao 객체는 오직 1개만 생성될 수 잇도록 설계한다.
+ */
+public class MemberDao {
+	// 1. 자신의 Type 을 private static 맴버필드로 정의한다.
+	private static MemberDao dao;
+	// 2. 외부에서 객체 생성할수 없도록 생성자의 접근 지정자를 private로 지정한다.
+	private MemberDao(){}
+	// 3. 자신의 참조값을 리턴해주는 static 맴버 메소드를 정의한다.
+	public static MemberDao getInstance(){
+		if(dao==null){ // 최초 호출될때는 null 임으로
+			dao=new MemberDao(); // 객체를 생성해서 필드에 저장한다.
+		}
+		// 필드에 저장된 참조값을 리턴해준다.
+		return dao;
+	}
+}
