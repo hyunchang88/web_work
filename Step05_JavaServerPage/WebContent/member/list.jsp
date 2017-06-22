@@ -16,6 +16,7 @@
 <title>Member/list.jsp</title>
 </head>
 <body>
+<a href="insertform.html">회원 추가하기</a>
 <h3>회원 목록 페이지 입니다.</h3>
 <table>
 	<thead>
