@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test12.html</title>
+</head>
+<body>
+<h3>회원가입 폼 입니다.</h3>
+<form action="test12.jsp" method="post">
+	이메일 <input type="text" name="email" /><br/>
+	비밀번호 <input type="password" name="pwd"/><br/>
+</form>
+</body>
+</html>

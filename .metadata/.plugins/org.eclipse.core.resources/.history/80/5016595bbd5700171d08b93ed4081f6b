@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test13.html</title>
+</head>
+<body>
+<button id="btn1">ajax 요청하기</button>
+
+<script src="resource/js/jquery-3.2.0.js"></script>
+<script>
+	// 아이디가 btn1 인 버튼을 클릭했을때 실행할 함수 등록
+	$("#btn1").click(function(){
+		$.ajax({
+			url:"test13.jsp",
+			method:"GET",
+			success:function(data){}
+		});
+	});
+</script>
+
+</body>
+</html>

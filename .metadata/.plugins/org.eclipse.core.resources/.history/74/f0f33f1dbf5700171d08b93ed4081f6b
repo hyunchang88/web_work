@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test14.html</title>
+</head>
+<body>
+<button id="getBtn">이름 가져오기</button>
+<p>이름 <strong id="result"></strong></p>
+<script src="resource/js/jquery-3.2.0.js"></script>
+<script>
+	
+</script>
+</body>
+</html>
