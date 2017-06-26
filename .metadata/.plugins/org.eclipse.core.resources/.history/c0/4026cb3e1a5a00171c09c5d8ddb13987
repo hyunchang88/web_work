@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>friends/insertform.html</title>
+<link rel="stylesheet" href="../resource/css/bootstrap.css" />
+</head>
+<body>
+
+<div class="container">
+	<h3>회원 정보 추가 폼 입니다.</h3>
+	<form action="insert.jsp" method="post" id="insertform">
+		<label for="name">이름</label>
+		<input type="text" name="name" id="name" class="myTooltip" title="이름입력" data-placement="bottom"/>
+		<label for="phone">전화번호</label>
+		<input type="text" name="phone" id="phone" class="myTooltip" title="000-000-0000" data-placement="bottom"/>
+		<label for="email">이메일</label>
+		<input type="text" name="email" id="email" class="myTooltip" title="이메일 형식으로 입력" data-placement="bottom"/>
+		<button type="submit">추가</button>
+	</form>
+</div>
+
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/bootstrap.js"></script>	
+<script>
+	$(".myTooltip").tooltip();
+	
+	/* 전화번호 형태 : 전화번호 형태 000-0000-0000 만 받는다. ] */
+	/^[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}$/
+	
+	/*  이메일 형식만 가능 */
+	/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/
+
+
+
+
+	
+	
+</script>
+
+</body>
+</html>

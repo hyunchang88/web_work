@@ -8,11 +8,10 @@
 	
 	// HttpServletRequest 객체가 기본 제공된다.
 	
-	// 1.폼 전송된 이름과 주소 읽어 오기
-	
 	// 한글 깨지지 않도록 
 	request.setCharacterEncoding("utf-8");
 	
+	//1.폼 전송된 이름과 주소 읽어 오기
 	String name=request.getParameter("name");
 	String phone=request.getParameter("phone");
 	String email=request.getParameter("email");

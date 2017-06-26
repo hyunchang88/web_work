@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+	<h3>Redirect 이동과 Forward 이동 테스트</h3>
+	<ul>
+		<li><a href="go1">go1</a></li>
+		<li><a href="go2">go2</a></li>
+		<li><a href="go3">go3</a></li>
+	</ul>
+</body>
+</html>

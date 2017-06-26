@@ -75,7 +75,7 @@ public class FriendsDao {
          conn=new DBConnect().getConn();
          //실행할 sql 문 준비하기
          String sql="INSERT INTO friends (num,name,phone,email) "
-               + "VALUES(member_seq.NEXTVAL, ?, ?, ?)";
+               + "VALUES(friends_seq.NEXTVAL, ?, ?, ?)";
          pstmt=conn.prepareStatement(sql);
          //? 에 값 바인딩하기
          pstmt.setString(1, dto.getName());

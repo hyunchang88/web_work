@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+	<h3>Redirect 이동</h3>
+	<ul>
+		<li><a href="go1">go1</a></li>
+		<li><a href="go2">go2</a></li>
+		<li><a href="go3">go3</a></li>
+		<li><a href="test/go4">go4</a></li>
+		<li><a href="test/go5.jsp">go5.jsp</a></li>
+		<li><a href="test/go6.jsp">go6.jsp</a></li>
+		<li><a href="test/go7.jsp">go7.jsp</a></li>
+	</ul>
+	
+	<h3>Forward 이동</h3>
+	<ul>
+		<li><a href="go8">go8</a></li>
+		<li><a href="test/go9">go9</a></li>
+		<!-- 아래의 요청에 대해서 /test/view3.jsp 
+		페이지가 대신 응답하도록 서블릿과 jsp 페이지를 만들어 보세요 -->
+		<li><a href="test/go10">go10</a></li>
+	</ul>
+</body>
+</html>

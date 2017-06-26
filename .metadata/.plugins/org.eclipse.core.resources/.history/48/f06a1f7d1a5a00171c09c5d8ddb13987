@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>friends/insertform.html</title>
+<link rel="stylesheet" href="../resource/css/bootstrap.css" />
+</head>
+<body>
+
+<div class="container">
+	<h3>회원 정보 추가 폼 입니다.</h3>
+	<form action="insert.jsp" method="post" id="insertform">
+		<label for="name">이름</label>
+		<input type="text" name="name" id="name" class="myTooltip" title="이름입력" data-placement="bottom"/>
+		<label for="phone">전화번호</label>
+		<input type="text" name="phone" id="phone" class="myTooltip" title="000-000-0000" data-placement="bottom"/>
+		<label for="email">이메일</label>
+		<input type="text" name="email" id="email" class="myTooltip" title="이메일 형식으로 입력" data-placement="bottom"/>
+		<button type="submit">추가</button>
+	</form>
+</div>
+
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/bootstrap.js"></script>	
+<script>
+	$(".myTooltip").tooltip();
+	
+	/* 전화번호 형태 : 전화번호 형태 000-0000-0000 만 받는다. ] */
+	var reg_phone = /^[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}$/;
+	
+	/*  이메일 형식만 가능 */
+	var reg_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
+	
+	//form에 submit 이벤트가 일어났을때 실행할 함수 등록
+	$("#insertform").on("submit",function(){
+		console.log("submit!");
+
+		// 1. 입력한 id 값을 읽어온다.
+		var inputId = $("#id").val();
+
+		// 2. 정규표현식에 매칭 되는지 여부를 알아낸다.
+		var result = reg1.test(inputId); // 이 위치에 들어오는 데이터는 true or false
+
+		// 3. 만일 매칭되지 않으면 return false 를 만나게 된다.
+		if(result==false){
+			alert("아이디 형식을 확인 하세요!!");
+			$("#id").focus(); // input 요소에 focus가 알아서 가게
+			return false; // 제출 되는걸 막아주는 것.
+			//form에 submit 이벤트가 일어났을때 실행할 함수안에서 return faluse 만나면 제출되는것이 막아져
+		}
+
+	});
+
+
+
+	
+	
+</script>
+
+</body>
+</html>

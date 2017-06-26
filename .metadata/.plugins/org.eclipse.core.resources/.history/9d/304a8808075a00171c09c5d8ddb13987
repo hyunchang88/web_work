@@ -1,0 +1,7 @@
+CREATE TABLE friends
+(num NUMBER PRIMARY KEY,
+name VARCHAR2(20),
+phone VARCHAR2(20),
+email VARCHAR2(50));
+
+CREATE SEQUENCE firends_seq;

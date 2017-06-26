@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>friends/insertform.html</title>
+<link rel="stylesheet" href="../resource/css/bootstrap.css" />
+</head>
+<body>
+
+<div class="container">
+	<h3>회원 정보 추가 폼 입니다.</h3>
+	<form action="insert.jsp" method="post">
+		<label for="name">이름</label>
+		<input type="text" name="name" id="name" class="myTooltip" title="이름입력" data-placement="bottom"/>
+		<label for="phone">전화번호</label>
+		<input type="text" name="phone" id="phone" class="myTooltip" title="000-000-0000" data-placement="bottom"/>
+		<label for="email">이메일</label>
+		<input type="text" name="email" id="email" class="myTooltip" title="이메일 형식으로 입력" data-placement="bottom"/>
+		<button type="submit" id="submit">추가</button>
+	</form>
+</div>
+
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/bootstrap.js"></script>	
+<script>
+	$(".myTooltip").tooltip();
+	
+	// 추가 버튼을 눌렀을때 실행할 함수 등록
+	$("#submit").click(function(){
+		// 입력한 전화번호를 읽어온다.
+		var  inputId=$("#phone").val();
+		// ajax 통신을 이용해서 서버에 보낸다.
+		$.ajax({
+			url:"/friends/insert.jps/phoneCheck",
+			method:"get",
+			data:{inputPhone:inputPhone},
+			success:function(data){
+				//data 는 {canUse: true} or {canUse: false}
+				if(data.canUse){
+					$("#checkResult").text("사용가능");
+					isCheckPhone = true;
+					
+				}else{
+					$("#checkResult").text("사용불가");
+					isCheckPhone = false;
+				}
+			}
+		});
+		return false; // 폼 제출 막기
+	});
+</script>
+
+</body>
+</html>
