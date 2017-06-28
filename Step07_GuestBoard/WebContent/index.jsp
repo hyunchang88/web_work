@@ -10,6 +10,7 @@
 <h3>인덱스 페이지 입니다.</h3>
 <ul>
 	<li><a href="board/list.jsp">방명록 목록 보기</a></li>
+	<li><a href="board2/list.jsp">방명록 목록 보기2</a></li>
 </ul>
 </body>
 </html>
