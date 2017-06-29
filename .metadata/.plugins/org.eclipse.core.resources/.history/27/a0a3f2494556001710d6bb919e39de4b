@@ -1,9 +1,0 @@
-package test.dto;
-// Data Transfer Object
-public class MemberDto {
-	private int num;
-	private String name;
-	private String addr;
-	// 디폴트 생성자
-	public MemberDto(){}
-}

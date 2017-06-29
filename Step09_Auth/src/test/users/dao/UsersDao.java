@@ -88,9 +88,135 @@ public class UsersDao {
 		// 아이디 비밀번호가 유요한 정보인지 여부를 리턴해 준다.
 		return isValid;
 	}//isValid()
+	
+	// 회원 가입된 정보를 리턴해 주는 메소드
+	public UsersDto getData(String id){
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		UsersDto dto=null;
+		try {
+			conn = new DbcpBean().getConn();
+			String sql = "SELECT pwd,email,regdate FROM users"
+					+" WHERE id=?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			while (rs.next()) {
+				dto=new UsersDto();
+				dto.setId(id);
+				dto.setPwd(rs.getString("pwd"));
+				dto.setEmail(rs.getString("email"));
+				dto.setRegdate(rs.getString("regdate"));
+			}
+		} catch (SQLException se) {
+			se.printStackTrace();
+		} finally {
+			try {
+				if (rs != null)
+					rs.close();
+				if (pstmt != null)
+					pstmt.close();
+				if (conn != null)
+					conn.close();
+			} catch (Exception e) {
+			}
+		}
+		return dto;
+	}//getData()
+	
+	//회원 정보를 삭제하는 메소드
+	public boolean delete(String id){
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		int flag = 0;
+		try {
+			conn = new DbcpBean().getConn();
+			String sql = "DELETE FROM users WHERE id=?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			flag = pstmt.executeUpdate();
+		} catch (SQLException se) {
+			se.printStackTrace();
+		} finally {
+			try {
+				if (pstmt != null)
+					pstmt.close();
+				if (conn != null)
+					conn.close();
+			} catch (Exception e) {
+			}
+		}
+		if (flag > 0) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}// delete()
+	
+	//회원정보를 수정하는 메소드
+	public boolean update(UsersDto dto){
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		int flag = 0;
+		try {
+			conn = new DbcpBean().getConn();
+			String sql = "UPDATE users SET pwd=?,email=? "
+					+"WHERE id=?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, dto.getPwd());
+			pstmt.setString(2, dto.getEmail());
+			pstmt.setString(3, dto.getId());
+			flag = pstmt.executeUpdate();
+		} catch (SQLException se) {
+			se.printStackTrace();
+		} finally {
+			try {
+				if (pstmt != null)
+					pstmt.close();
+				if (conn != null)
+					conn.close();
+			} catch (Exception e) {
+			}
+		}
+		if (flag > 0) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
