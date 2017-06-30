@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Step11_Cooke&apos; to &apos;Step11_Cookie&apos;" description="Rename resource &apos;Step11_Cooke&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Step11_Cooke" name="Step11_Cookie" stamp="1498782423904" updateReferences="true"/>
+</session>

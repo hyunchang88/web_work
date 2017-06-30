@@ -307,3 +307,14 @@
 0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:25:08 +0900] "GET /Step11_Cooke/result.jsp HTTP/1.1" 200 318
 0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:25:14 +0900] "POST /Step11_Cooke/test.jsp HTTP/1.1" 200 520
 0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:25:15 +0900] "GET /Step11_Cooke/result.jsp HTTP/1.1" 200 324
+127.0.0.1 - - [29/Jun/2017:17:59:05 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:59:06 +0900] "GET /Step07_GuestBoard/index.jsp HTTP/1.1" 200 434
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:59:06 +0900] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:17:59:07 +0900] "GET /Step07_GuestBoard/board/list.jsp HTTP/1.1" 200 1466
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:36 +0900] "GET /Step10_Include/index.jsp HTTP/1.1" 200 691
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:36 +0900] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:38 +0900] "GET /Step10_Include/test7/home.jsp HTTP/1.1" 200 1068
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:40 +0900] "GET /Step10_Include/test7/game.jsp HTTP/1.1" 200 1070
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:41 +0900] "GET /Step10_Include/test7/contact.jsp HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:41 +0900] "GET /Step10_Include/test7/game.jsp HTTP/1.1" 200 1070
+0:0:0:0:0:0:0:1 - - [29/Jun/2017:18:19:41 +0900] "GET /Step10_Include/test7/home.jsp HTTP/1.1" 200 1068
