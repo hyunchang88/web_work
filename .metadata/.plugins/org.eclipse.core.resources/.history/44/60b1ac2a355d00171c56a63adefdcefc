@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>/popup/popup_page.html</title>
+<style>
+	body{
+		bakcground-color: yellow;
+	}
+</style>
+<script>
+	function closePopup(){
+		self.close();
+	}
+</script>
+</head>
+<body>
+<h3>팝업 페이지</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi eaque nisi dolore. Aperiam ducimus consequatur voluptates dolorem neque incidunt et labore ipsam tenetur assumenda doloremque ea provident in error.</p>
+</body>
+</html>
