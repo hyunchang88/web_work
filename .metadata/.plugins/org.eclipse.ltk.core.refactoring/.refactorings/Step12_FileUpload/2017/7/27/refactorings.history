@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Step12_FileUpload/WebContent/file/upload.jsp&apos; to &apos;uploadform.jsp&apos;" description="Rename resource &apos;upload.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/file/upload.jsp" name="uploadform.jsp" stamp="1499407810344" updateReferences="true"/>
+</session>
