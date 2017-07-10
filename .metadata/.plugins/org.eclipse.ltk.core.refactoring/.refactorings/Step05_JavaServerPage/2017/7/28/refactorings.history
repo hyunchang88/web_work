@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;test.dto&apos; to &apos;Step13_MVC/src&apos;&#x0D;&#x0A;- Original project: &apos;Step05_JavaServerPage&apos;&#x0D;&#x0A;- Destination element: &apos;Step13_MVC/src&apos;&#x0D;&#x0A;- Original element: &apos;Step05_JavaServerPage/src/test.dto&apos;" description="Copy package" destination="=Step13_MVC/src" element1="/src&lt;test.dto" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1499673018221" version="1.0"/>
+</session>

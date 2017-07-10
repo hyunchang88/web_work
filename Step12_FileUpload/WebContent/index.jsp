@@ -4,14 +4,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Index.jsp</title>
+<title>index.jsp</title>
 </head>
 <body>
 <h3>인덱스 페이지 입니다.</h3>
-
 <ul>
 	<li><a href="file/uploadform.jsp">파일 업로드</a></li>
 	<li><a href="file/list.jsp">파일 목록보기</a></li>
+	<li><a href="gallery/uploadform.jsp">이미지 업로드</a></li>
+	<li><a href="gallery/list.jsp">이미지 목록보기</a></li>
 </ul>
 </body>
 </html>
+
+
+
+
+
+
+
+

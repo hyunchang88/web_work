@@ -1,0 +1,20 @@
+package test.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/mycon")
+public class MyController extends HttpServlet{
+	@Override
+	protected void service(HttpServletRequest requenst, 
+			HttpServletResponse response) throws ServletException, IOException {
+
+		// 오늘의 운세 얻어오는 Business Logic
+		String fortuneToday="동쪽으로 가면 귀인을 만나요~";
+	}
+}

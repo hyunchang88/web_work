@@ -1,4 +1,5 @@
 <%@page import="test.board.dao.FileDao"%>
+<%@page import="javax.activation.FileDataSource"%>
 <%@page import="test.board.dto.FileDto"%>
 <%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
@@ -7,6 +8,8 @@
 <%
 	//파일을 저장할 폴더의 절대 경로를 얻어온다.
 	String realPath=application.getRealPath("/upload");
+	//콘솔에 테스트로 출력해보기
+	System.out.println(realPath);
 	//최대 업로드 사이즈
 	int sizeLimit=1024*1000*50;  //50 Mbyte
 	//cos.jar 라이브러리에 있는 클래스를 이용해서 객체 생성하기
@@ -21,20 +24,17 @@
 	String orgFileName=mr.getOriginalFileName("myFile");
 	String saveFileName=mr.getFilesystemName("myFile");
 	long fileSize=mr.getFile("myFile").length();
-	
-	// 파일의 정보를 FileDto 객체에 담아서
+	//파일의 정보를 FileDto 객체에 담아서
 	FileDto dto=new FileDto();
 	dto.setWriter(writer);
 	dto.setTitle(title);
 	dto.setOrgFileName(orgFileName);
 	dto.setSaveFileName(saveFileName);
 	dto.setFileSize(fileSize);
-	// FileDao 객체를 이용해서 DB 에 저장하고
+	//FileDao 객체를 이용해서 DB 에 저장하고
 	boolean isSuccess=FileDao.getInstance().insert(dto);
-	// 응답한다.
-	
+	//응답한다.
 %>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -51,6 +51,9 @@
 <%} %>
 </body>
 </html>
+
+
+
 
 
 

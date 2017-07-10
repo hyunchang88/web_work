@@ -7,5 +7,21 @@ saveFileName VARCHAR2(100) NOT NULL,
 fileSize NUMBER NOT NULL,
 regdate DATE);
 
-CREATE SEQUENCE board_data_seq;
+CREATE SEQUENCE board_data_seq ;
+
+CREATE TABLE board_image
+(num NUMBER PRIMARY KEY,
+name VARCHAR2(100) NOT NULL,
+imgSrc VARCHAR2(100) NOT NULL,
+regdate DATE);
+
+CREATE SEQUENCE board_image_seq;
+
+
+
+
+
+
+
+
 

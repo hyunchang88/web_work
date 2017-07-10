@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Step12_FileUpload&apos;" deleteContents="false" description="Delete resource &apos;Step12_FileUpload&apos;" element1="/Step12_FileUpload" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1499667123532"/>
+</session>
