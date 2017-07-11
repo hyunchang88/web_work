@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;Step15_MemberMVC/src&apos;&#x0D;&#x0A;- Original project: &apos;Step07_GuestBoard&apos;&#x0D;&#x0A;- Destination element: &apos;Step15_MemberMVC/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Step07_GuestBoard/src/test.filter&#x0D;&#x0A;     Step07_GuestBoard/src/test.util" description="Copy packages" destination="=Step15_MemberMVC/src" element1="/src&lt;test.filter" element2="/src&lt;test.util" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1499751527933" version="1.0"/>
+</session>

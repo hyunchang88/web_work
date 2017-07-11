@@ -48,6 +48,20 @@ public class MyController extends HttpServlet{
 			
 			// 이동할 경로 구성
 			path="/views/info.jsp";
+		}else if(command.equals("signin")){
+			// 파라미터로 전달되는 아이디를 읽어온다.
+			String id=request.getParameter("id");
+			// 세션에 담는다.
+			request.getSession().setAttribute("id", id);
+			// 이동 경로
+			path=request.getContextPath()+"/index.jsp";
+			isRedirect=true; // 리다일렉트 이동 하도록
+		}else if(command.equals("signout")){
+			// 세션 초기화
+			request.getSession().invalidate();
+			// 이동 경로
+			path=request.getContextPath()+"/index.jsp";
+			isRedirect=true; // 리다일렉트 이동 하도록
 		}
 		
 		if(isRedirect){// 리다일렉트 이동해야 한다면

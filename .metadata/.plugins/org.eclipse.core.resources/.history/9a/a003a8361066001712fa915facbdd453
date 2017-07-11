@@ -1,0 +1,37 @@
+package test.controller;
+
+import test.member.action.MemberInsertAction;
+import test.member.action.MemberInsertformAction;
+import test.member.action.MemberUpdateFormAction;
+import test.member.action.memberDeleteAction;
+import test.member.action.memberListAction;
+
+public class UserActionFactory {
+	private static UserActionFactory factory;
+	private UserActionFactory(){}
+	//자신의 참조값을 리턴해주는 메소드
+	public static UserActionFactory getInstance(){
+		if(factory==null){
+			factory=new UserActionFactory();
+		}
+		return factory;
+	}
+	
+	// 인자로 전달되는 command 를 수행할 추상클래스 type인 Action class 객체를 리턴해주는 메소드
+	public Action action(String command){
+		//Action 추상클래스 type 을 담을 지역변수 만들기
+		Action action=null;
+		if(command.equals("/member/list")){
+			action=new memberListAction();
+		}else if(command.equals("/member/delete")){
+			action=new memberDeleteAction();
+		}else if(command.equals("/member/insertform")){
+			action=new MemberInsertformAction();
+		}else if(command.equals("/member/insert")){
+			action=new MemberInsertAction();
+		}else if(command.equals("/member/updateform")){
+			action=new MemberUpdateFormAction();
+		}
+		return action;
+	}
+}

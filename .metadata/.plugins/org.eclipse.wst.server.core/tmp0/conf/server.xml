@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step13_MVC" path="/Step13_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step13_MVC"/></Host>
+      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step13_MVC" path="/Step13_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step13_MVC"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step14_MVC" path="/Step14_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step14_MVC"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step15_MemberMVC" path="/Step15_MemberMVC" reloadable="true" source="org.eclipse.jst.jee.server:Step15_MemberMVC"/></Host>
     </Engine>
   </Service>
 </Server>

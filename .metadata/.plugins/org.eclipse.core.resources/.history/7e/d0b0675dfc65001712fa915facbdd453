@@ -1,0 +1,6 @@
+package test.member.dao;
+
+public class MemberDao {
+	private static MemberDao dao;
+	
+}
