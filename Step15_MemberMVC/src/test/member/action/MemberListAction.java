@@ -23,7 +23,6 @@ public class MemberListAction extends Action{
 		
 		return af;
 	}
-
 }
 
 

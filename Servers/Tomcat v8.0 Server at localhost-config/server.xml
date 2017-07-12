@@ -64,7 +64,7 @@
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
-               port="8080" protocol="HTTP/1.1"
+               port="8888" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443" />
     -->
@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Step13_MVC" path="/Step13_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step13_MVC"/><Context docBase="Step14_MVC" path="/Step14_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step14_MVC"/><Context docBase="Step15_MemberMVC" path="/Step15_MemberMVC" reloadable="true" source="org.eclipse.jst.jee.server:Step15_MemberMVC"/></Host>
+      <Context docBase="Step07_GuestBoard_MVC" path="/Step07_GuestBoard_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step07_GuestBoard_MVC"/><Context docBase="Step15_MemberMVC" path="/Step15_MemberMVC" reloadable="true" source="org.eclipse.jst.jee.server:Step15_MemberMVC"/><Context docBase="Step16_EL" path="/Step16_EL" reloadable="true" source="org.eclipse.jst.jee.server:Step16_EL"/><Context docBase="Step17_JSTL" path="/Step17_JSTL" reloadable="true" source="org.eclipse.jst.jee.server:Step17_JSTL"/></Host>
     </Engine>
   </Service>
 </Server>
