@@ -1,0 +1,19 @@
+package test.member.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import test.controller.Action;
+import test.controller.ActionForward;
+/*
+ * 파라미터로 전달되는 회원정보를 저장하는 액션
+ */
+public class MemberInsertAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		
+		return null;
+	}
+	
+}
