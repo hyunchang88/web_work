@@ -4,3 +4,5 @@ pwd VARCHAR2(100) NOT NULL,
 email VARCHAR2(100),
 regdate DATE);
 
+CREATE SEQUENCE users_seq;
+

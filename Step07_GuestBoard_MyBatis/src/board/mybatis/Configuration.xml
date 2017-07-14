@@ -19,6 +19,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</environments>
 	<!-- sql 문을 정의하고 있는 xml 문서 -->
 	<mappers>
-		<mapper resource="board/mybatis/MemberMapper.xml"/>
+		<mapper resource="board/mybatis/BoarderMapper.xml"/>
 	</mappers>
 </configuration>
