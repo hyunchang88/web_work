@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step18_MyBatis" path="/Step18_MyBatis" reloadable="true" source="org.eclipse.jst.jee.server:Step18_MyBatis"/></Host>
+      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step18_MyBatis" path="/Step18_MyBatis" reloadable="true" source="org.eclipse.jst.jee.server:Step18_MyBatis"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Step07_GuestBoard_MVC" path="/Step07_GuestBoard_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Step07_GuestBoard_MVC"/></Host>
     </Engine>
   </Service>
 </Server>

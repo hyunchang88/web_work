@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.sun.java.swing.plaf.windows.WindowsBorders.DashedBorder"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="test.dao.MemberDao"/>
-<fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.Connection"/>
-<fullyQualifiedTypeName name="test.util.DBConnect"/>
 <fullyQualifiedTypeName name="com.sun.corba.se.spi.legacy.connection.Connection"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="javax.naming.Context"/>
@@ -16,7 +8,6 @@
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="test.users.dto.UsersDto"/>
 <fullyQualifiedTypeName name="javax.servlet.Filter"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
@@ -37,23 +28,36 @@
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="test.util.DbcpBean"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="test.member.action.memberListAction"/>
-<fullyQualifiedTypeName name="test.member.action.MemberInsertformAction"/>
-<fullyQualifiedTypeName name="test.member.action.MemberInsertAction"/>
 <fullyQualifiedTypeName name="test.member.action.MemberUpdateFormAction"/>
-<fullyQualifiedTypeName name="test.member.dao.MemberDao"/>
 <fullyQualifiedTypeName name="test.member.action.memberDeleteAction"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.Action"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="test.board.dto.BoardDto"/>
 <fullyQualifiedTypeName name="test.board.dao.BoardDao"/>
 <fullyQualifiedTypeName name="test.board.action.BoardListAction"/>
 <fullyQualifiedTypeName name="test.action.FortuneAction"/>
-<fullyQualifiedTypeName name="test.controller.Action"/>
-<fullyQualifiedTypeName name="test.member.dto.MemberDto"/>
-<fullyQualifiedTypeName name="test.controller.ActionForward"/>
 <fullyQualifiedTypeName name="test.action.InfoAction"/>
+<fullyQualifiedTypeName name="java.io.Reader"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="test.action.HomeAction"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+<fullyQualifiedTypeName name="test.mybatis.SqlMapConfig"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="test.member.action.MemberListAction"/>
+<fullyQualifiedTypeName name="test.member.action.MemberDeleteAction"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="test.controller.ActionForward"/>
+<fullyQualifiedTypeName name="test.member.action.MemberInsertAction"/>
+<fullyQualifiedTypeName name="test.member.action.MemberInsertformAction"/>
+<fullyQualifiedTypeName name="test.controller.Action"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="test.member.dto.MemberDto"/>
+<fullyQualifiedTypeName name="test.member.dao.MemberDao"/>
+<fullyQualifiedTypeName name="test.member.action.MemberUpdateAction"/>
+<fullyQualifiedTypeName name="test.member.action.MemberUpdateformAction"/>
 </qualifiedTypeNameHistroy>

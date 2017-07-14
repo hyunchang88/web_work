@@ -107,3 +107,6 @@
 0:0:0:0:0:0:0:1 - - [13/Jul/2017:17:44:13 +0900] "GET /Step18_MyBatis/member/updateform.do?num=2 HTTP/1.1" 200 515
 0:0:0:0:0:0:0:1 - - [13/Jul/2017:17:44:22 +0900] "POST /Step18_MyBatis/member/update.do HTTP/1.1" 200 209
 0:0:0:0:0:0:0:1 - - [13/Jul/2017:17:44:36 +0900] "GET /Step18_MyBatis/member/list.do HTTP/1.1" 200 965
+127.0.0.1 - - [13/Jul/2017:17:53:17 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:17:53:18 +0900] "GET /Step07_GuestBoard_MVC/index.jsp HTTP/1.1" 200 367
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:17:53:20 +0900] "GET /Step07_GuestBoard_MVC/board/list.do HTTP/1.1" 200 992

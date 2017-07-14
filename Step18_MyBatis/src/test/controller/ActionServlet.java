@@ -46,6 +46,12 @@ public class ActionServlet extends HttpServlet{
 						request.getRequestDispatcher(af.getPath());
 				rd.forward(request, response);
 			}
+		}else{// 요청을 처리할 Action 객체가 null 이라면
+			String msg="해당 페이지는 존재 하지 않습니다.";
+			request.setAttribute("msg", msg);
+			RequestDispatcher rd =
+					request.getRequestDispatcher("/views/error.jsp");
+			rd.forward(request, response);
 		}
 	}
 }

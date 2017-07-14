@@ -26,7 +26,7 @@ public class UserActionFactory {
 		Action action=null;
 		if(command.equals("/home")){
 			action=new HomeAction();
-		// 회원목록 요청 처리
+		// 회원목록 요청 처리0
 		}else if(command.equals("/member/list")){
 			action=new MemberListAction();
 		}else if(command.equals("/member/delete")){
