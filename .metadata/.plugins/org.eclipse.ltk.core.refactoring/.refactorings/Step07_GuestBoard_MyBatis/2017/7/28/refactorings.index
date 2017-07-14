@@ -1,0 +1,16 @@
+1499995341244	Rename package 'guestboard.board_guest.action'
+1499995348954	Rename package 'guestboard.board_guest.dao'
+1499995356180	Rename package 'guestboard.board_guest.dto'
+1499995363235	Rename package 'guestboard.controller'
+1499995368095	Rename package 'guestboard.filter'
+1499995375078	Rename package 'guestboard.mybatis'
+1499996645310	Delete element
+1499997111053	Rename type 'BoardDetail'
+1499997323848	Delete element
+1499997841232	Rename type 'BoardDetailAction'
+1499997915115	Rename type 'BoardDetailformAction'
+1499997968704	Rename resource 'detailform.jsp'
+1500001645062	Rename type 'BoardDetailFormAction'
+1500002469817	Rename type 'BoardUpdate'
+1500004280912	Delete element
+1500005749710	Rename type 'BaordDeleteAction'

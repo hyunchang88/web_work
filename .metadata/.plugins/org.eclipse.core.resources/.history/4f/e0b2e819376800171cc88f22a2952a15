@@ -1,0 +1,5 @@
+package board.action;
+
+public class BoardDetailAction extends Action{
+
+}
