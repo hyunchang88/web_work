@@ -1,0 +1,21 @@
+package test.board.dao;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+import test.mybatis.SqlMapConfig;
+
+public class BoardDao {
+	private static BoardDao dao;
+	// MyBatis 를 사용하기 위한 객체
+	private static SqlSessionFactory factory;
+	// 생성자
+	private BoardDao(){}
+	// 자신의 참조값을 리턴해주는 static 맴버 메소드
+	public static BoardDao getInstance(){
+		if(dao==null){
+			dao=new BoardDao();
+			factory = SqlMapConfig.getSqlSession();
+		}
+		return dao;
+	}
+}

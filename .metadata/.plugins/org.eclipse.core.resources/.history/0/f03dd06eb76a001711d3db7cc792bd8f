@@ -1,0 +1,5 @@
+package test.board.action;
+
+public class BoardInsertformAction {
+
+}

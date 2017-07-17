@@ -1,0 +1,10 @@
+CREATE TABLE board_guest
+(num NUMBER PRIMARY KEY,
+writer VARCHAR2(50),
+title VARCHAR2(100),
+content CLOB,
+regdate DATE);
+
+CREATE SEQUENCE board_guest_seq;
+
+INSERT INTO board_guest(board_guest_seq.NEXTVAL, '김구라1', '제목1', '내용1', SYSDATE);

@@ -1,5 +1,0 @@
-package test.mybatis;
-
-public class SqlMapConfig {
-
-}

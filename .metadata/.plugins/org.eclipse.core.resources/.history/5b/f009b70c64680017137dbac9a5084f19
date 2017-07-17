@@ -1,0 +1,14 @@
+package board.dto;
+
+
+
+public class GuestBoardDto {
+	private int num;
+	private String writer;
+	private String title;
+	private String content;
+	private String regdate;
+	public GuestBoardDto(){}
+
+	
+}

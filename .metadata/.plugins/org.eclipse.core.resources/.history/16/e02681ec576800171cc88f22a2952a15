@@ -1,7 +1,0 @@
-package board.action;
-
-import board.controller.Action;
-
-public class BoardInsertAction extends Action{
-	
-}

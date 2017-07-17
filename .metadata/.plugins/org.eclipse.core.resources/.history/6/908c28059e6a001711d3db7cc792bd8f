@@ -1,0 +1,19 @@
+package test.board.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import test.controller.Action;
+import test.controller.ActionForward;
+/*
+ * 파라미터로 전달되는 글번호를 수정할 폼을 제공하는 액션
+ */
+public class BoardUpdateformAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>board/detail.jsp</title>
+</head>
+<body>
+<h3>방명록 글 자세히 보기 페이지</h3>
+<p> 글번호 : <strong>${dto.num }</strong></p>
+<p> 작성자 : <strong>${dto.writer }</strong></p>
+<p> 제목 : <strong>${dto.title }</strong></p>
+내용<br/>
+<textarea cols="50" rows="10">${dto.content }</textarea>
+<br/>
+<a href="list.do">목록보기</a>
+<a href="updateform.do?num=${dto.num }">수정</a>
+<a href="javascript:deleteConfirm()">삭제</a>
+<script>
+	function deleteConfirm(){
+		var isDelete=confirm("삭제 하시겠습니까?");
+		if(isDelete){
+			location.href="delete.do?num=${dto.num }";
+		}
+	}
+</script>
+</body>
+</html>

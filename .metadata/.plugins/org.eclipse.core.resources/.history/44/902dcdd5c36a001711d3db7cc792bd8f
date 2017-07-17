@@ -1,0 +1,19 @@
+package test.board.dto;
+
+public class BoardDto {
+	private int num; // 글 번호
+	private String writer; // 작성자
+	private String title; // 제목
+	private String content; // 글내용
+	private String regdate; // 작성일
+	
+	private int startRowNum; // 시작 row 번호
+	private int endRowNum; // 끝 row 번호
+	private int prevNum; // 이전글의 글 번호
+	private int nextNum; // 다음글의 글 번호
+	
+	public BoardDto(){}
+
+	
+	
+}

@@ -1,0 +1,33 @@
+package board.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import board.dao.GuestBoardDao;
+import board.dto.GuestBoardDto;
+import controller.Action;
+import controller.ActionForward;
+
+public class BoardUpdateAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		int num=Integer.parseInt(request.getParameter("num"));
+		String title=request.getParameter("title");
+		String writer=request.getParameter("writer");
+		String content=request.getParameter("content");
+		
+		GuestBoardDto dto=new GuestBoardDto();
+		
+		dto.setNum(num);
+		dto.setTitle(title);
+		dto.setWriter(writer);
+		dto.setContent(content);
+		
+		GuestBoardDao.getInstance().update(dto);
+		
+		request.setAttribute("msg", num+" 번 방명록 수정 됨");
+		return new ActionForward("/views/board/alert.jsp");
+	}
+
+}
