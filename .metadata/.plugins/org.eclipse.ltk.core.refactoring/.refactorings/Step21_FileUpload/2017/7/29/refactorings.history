@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Step21_FileUpload/src/test/mybatis/MemberMapper.xml&apos; to &apos;FileMapper.xml&apos;" description="Rename resource &apos;MemberMapper.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/mybatis/MemberMapper.xml" name="FileMapper.xml" stamp="1500365395450" updateReferences="true"/>
+</session>

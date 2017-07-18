@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<SAVED_DATA>
+	<bookmarks>
+		<jdbcDriver className="org.apache.derby.jdbc.EmbeddedDriver" name="org.apache.derby.jdbc.EmbeddedDriver" type="DERBY" version="">
+			<jar fileName="C:/ncs03/eclipse/file::/C::/ncs03/eclipse/plugins/com.quantum.derby_3.3.9.jar!/lib/derby.jar" />
+		</jdbcDriver>
+		<jdbcDriver className="oracle.jdbc.driver.OracleDriver" name="Oracle JDBC driver" type="ORACLE" version="11.2.0.4.0">
+			<jar fileName="C:\Program Files\Java\jre1.8.0_131\lib\ext\ojdbc6.jar" />
+		</jdbcDriver>
+		<bookmark>
+			<name>(Internal) Derby</name>
+			<username>QUANTUM</username>
+			<password />
+			<prompt>false</prompt>
+			<connect>jdbc:derby:C:/ncs03/eclipse/file::/C::/ncs03/eclipse/plugins/com.quantum.derby_3.3.9.jar!/data/quantum</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>true</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>org.apache.derby.jdbc.EmbeddedDriver</driver>
+			<type>DERBY</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:/ncs03/eclipse/file::/C::/ncs03/eclipse/plugins/com.quantum.derby_3.3.9.jar!/lib/derby.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList />
+		</bookmark>
+		<bookmark>
+			<name>LocalOracle</name>
+			<username>scott</username>
+			<password>tiger</password>
+			<prompt>false</prompt>
+			<connect>jdbc:oracle:thin:@localhost:1521:xe</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>false</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<type>ORACLE</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:\Program Files\Java\jre1.8.0_131\lib\ext\ojdbc6.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라1', '제목1', '내용1', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라2', '제목2', '내용2', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라3', '제목3', '내용3', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라4', '제목4', '내용4', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라5', '제목5', '내용5', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라6', '제목6', '내용6', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라7', '제목7', '내용7', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라8', '제목8', '내용8', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라9', '제목9', '내용9', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라10', '제목10', '내용10', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라11', '제목11', '내용11', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라12', '제목12', '내용12', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라13', '제목13', '내용13', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라14', '제목14', '내용14', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라15', '제목15', '내용15', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라16', '제목16', '내용16', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라17', '제목17', '내용17', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라18', '제목18', '내용18', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라19', '제목19', '내용19', SYSDATE)</queryString>
+				</query>
+				<query>
+					<queryString>INSERT INTO board_guest VALUES(board_guest_seq.NEXTVAL, '김구라20', '제목20', '내용20', SYSDATE)</queryString>
+				</query>
+			</queryList>
+		</bookmark>
+	</bookmarks>
+</SAVED_DATA>
