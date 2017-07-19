@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Step20_Keyword" path="/Step20_Keyword" reloadable="true" source="org.eclipse.jst.jee.server:Step20_Keyword"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Step21_FileUpload" path="/Step21_FileUpload" reloadable="true" source="org.eclipse.jst.jee.server:Step21_FileUpload"/></Host>
+      <Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Step21_FileUpload" path="/Step21_FileUpload" reloadable="true" source="org.eclipse.jst.jee.server:Step21_FileUpload"/><Context docBase="C:\ncs03\web_work\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Step12_FileUpload" path="/Step12_FileUpload" reloadable="true" source="org.eclipse.jst.jee.server:Step12_FileUpload"/></Host>
     </Engine>
   </Service>
 </Server>

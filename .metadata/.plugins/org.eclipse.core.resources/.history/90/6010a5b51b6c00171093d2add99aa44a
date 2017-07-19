@@ -1,0 +1,20 @@
+package test.file.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import test.controller.Action;
+import test.controller.ActionForward;
+/*
+ * 파라미터로 전달되는 번호에 해당하는 파일을 다운로드 시켜주는 액션
+ * 
+ */
+public class DownloadAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		
+		return null;
+	}
+
+}

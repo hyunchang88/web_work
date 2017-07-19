@@ -9,7 +9,7 @@
 <title>views/file/list.jsp</title>
 </head>
 <body>
-
+<a href="insertform.do">파일 업로드 하기</a>
 <h3>파일 목록입니다.</h3>
 <table>
 	<thead>

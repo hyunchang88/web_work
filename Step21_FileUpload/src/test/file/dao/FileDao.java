@@ -20,6 +20,14 @@ public class FileDao {
 		return dao;
 	}
 	
+	// 파일 하나의 정보를 리턴해 주는 메소드
+	public FileDto getData(int num){
+		SqlSession session=factory.openSession();
+		FileDto dto = session.selectOne("file.getData", num);
+		session.close();
+		return dto;
+	}
+	
 	// 파일 목록을 리턴해 주는 메소드
 	public List<FileDto> getList(){
 		SqlSession session=factory.openSession();
@@ -27,4 +35,23 @@ public class FileDao {
 		session.close();
 		return list;
 	}
+	
+	// 파일 정보를 저장하는 메소드
+	public void insert(FileDto dto){
+		//auto commit 되는 SqlSession 객체 얻어오기
+		SqlSession session = factory.openSession(true);
+		session.insert("file.insert", dto);
+		session.close();
+	}
+	
+	// 파일 정보를 삭제하는 메소드
+	public void delete(int num){
+		// SqlSession 객체의 참조값 얻어와서 삭제하기
+		SqlSession session = factory.openSession();
+		session.delete("file.delete", num);
+		session.commit();
+		session.close();
+	}
+	
+	
 }

@@ -1,0 +1,20 @@
+package test.users.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import test.controller.Action;
+import test.controller.ActionForward;
+/*
+ * Ajax 요청으로 전송되는 파라미터를 추출해서 사용할수 있는
+ * 아이디인지 여부를 응답하는 액션
+ */
+public class CheckIdAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		
+		return null;
+	}
+
+}

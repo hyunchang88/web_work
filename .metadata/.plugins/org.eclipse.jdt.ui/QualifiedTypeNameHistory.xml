@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="test.action.SigninAction"/>
-<fullyQualifiedTypeName name="test.action.SignoutAction"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="test.util.DbcpBean"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="test.member.action.memberListAction"/>
-<fullyQualifiedTypeName name="test.member.action.MemberUpdateFormAction"/>
-<fullyQualifiedTypeName name="test.member.action.memberDeleteAction"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.Action"/>
 <fullyQualifiedTypeName name="test.action.FortuneAction"/>
@@ -43,21 +32,32 @@
 <fullyQualifiedTypeName name="board.action.BoardInsertAction"/>
 <fullyQualifiedTypeName name="test.member.dao.MemberDao"/>
 <fullyQualifiedTypeName name="test.action.HomeAction"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
-<fullyQualifiedTypeName name="test.mybatis.SqlMapConfig"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="test.board.action.BoardListAction"/>
 <fullyQualifiedTypeName name="test.board.action.BoardDetailAction"/>
 <fullyQualifiedTypeName name="sun.security.jca.GetInstance"/>
 <fullyQualifiedTypeName name="test.board.action.BoardUpdateformAction"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
 <fullyQualifiedTypeName name="test.board.action.BoardUpdateAction"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="test.board.action.BoardDeleteAction"/>
 <fullyQualifiedTypeName name="test.board.action.BoardInsertformAction"/>
-<fullyQualifiedTypeName name="test.controller.Action"/>
 <fullyQualifiedTypeName name="test.board.dto.BoardDto"/>
 <fullyQualifiedTypeName name="test.board.dao.BoardDao"/>
-<fullyQualifiedTypeName name="test.controller.ActionForward"/>
 <fullyQualifiedTypeName name="test.board.action.BoardInsertAction"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+<fullyQualifiedTypeName name="test.mybatis.SqlMapConfig"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="test.file.action.FileListAction"/>
+<fullyQualifiedTypeName name="test.file.action.FileInsertformAction"/>
+<fullyQualifiedTypeName name="test.controller.Action"/>
+<fullyQualifiedTypeName name="test.file.action.fileUploadAction"/>
+<fullyQualifiedTypeName name="test.controller.ActionForward"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"/>
+<fullyQualifiedTypeName name="test.file.dto.FileDto"/>
+<fullyQualifiedTypeName name="test.file.dao.FileDao"/>
+<fullyQualifiedTypeName name="com.sun.glass.ui.Application"/>
+<fullyQualifiedTypeName name="javafx.application.Application"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.PageContext"/>
 </qualifiedTypeNameHistroy>

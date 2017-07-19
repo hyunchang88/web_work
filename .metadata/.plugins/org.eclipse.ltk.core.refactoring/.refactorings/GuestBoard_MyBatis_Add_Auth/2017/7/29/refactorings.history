@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;UsersDto.java&apos; to &apos;Step23_Cafe/src/test.users.dto&apos;&#x0D;&#x0A;- Original project: &apos;GuestBoard_MyBatis_Add_Auth&apos;&#x0D;&#x0A;- Destination element: &apos;Step23_Cafe/src/test.users.dto&apos;&#x0D;&#x0A;- Original element: &apos;users.dto.UsersDto.java&apos;" description="Copy compilation unit" destination="=Step23_Cafe/src&lt;test.users.dto" element1="/src&lt;users.dto{UsersDto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500433386732" units="1" version="1.0"/>
+</session>

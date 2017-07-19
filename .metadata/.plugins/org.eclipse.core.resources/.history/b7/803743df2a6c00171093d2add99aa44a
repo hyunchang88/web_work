@@ -1,0 +1,18 @@
+package test.cafe.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import test.controller.Action;
+import test.controller.ActionForward;
+
+public class CafeInsertAction extends Action{
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+		// 폼 전송되는 파라미터 추출해서 콘솔창에 출력해보기
+		
+		return null;
+	}
+
+}
