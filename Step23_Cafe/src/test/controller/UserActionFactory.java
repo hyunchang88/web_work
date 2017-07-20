@@ -1,6 +1,13 @@
 package test.controller;
 
 import test.action.HomeAction;
+import test.cafe.action.CafeCommentInsertAction;
+import test.cafe.action.CafeDeleteAction;
+import test.cafe.action.CafeDetailAction;
+import test.cafe.action.CafeInsertAction;
+import test.cafe.action.CafeInsertformAction;
+import test.cafe.action.CafeListAction;
+import test.cafe.action.CafeUpdateformAction;
 import test.users.action.CheckIdAction;
 import test.users.action.SigninAction;
 import test.users.action.SigninFormAction;
@@ -50,6 +57,20 @@ public class UserActionFactory {
 			action=new UsersUpdateformAction();
 		}else if(command.equals("/users/private/update")){
 			action=new UsersUpdateAction();
+		}else if(command.equals("/cafe/list")){
+			action=new CafeListAction();
+		}else if(command.equals("/cafe/private/insertform")){
+			action=new CafeInsertformAction();
+		}else if(command.equals("/cafe/private/insert")){
+			action=new CafeInsertAction();
+		}else if(command.equals("/cafe/detail")){
+			action=new CafeDetailAction();
+		}else if(command.equals("/cafe/private/updateform")){
+			action=new CafeUpdateformAction();
+		}else if(command.equals("/cafe/private/delete")){
+			action=new CafeDeleteAction();
+		}else if(command.equals("/cafe/comment_insert")){
+			action=new CafeCommentInsertAction();
 		}
 		return action;
 	}
